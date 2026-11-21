@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Notebook Card -->
+  <rect x="108" y="92" width="296" height="328" rx="32" fill="#ffffff" opacity="0.96" />
+  <!-- Spine -->
+  <rect x="108" y="92" width="52" height="328" rx="16" fill="#e0e7ff" />
+  <!-- Rings -->
+  <circle cx="134" cy="156" r="10" fill="#1e3a8a" />
+  <circle cx="134" cy="222" r="10" fill="#1e3a8a" />
+  <circle cx="134" cy="288" r="10" fill="#1e3a8a" />
+  <circle cx="134" cy="354" r="10" fill="#1e3a8a" />
+  <!-- Lines -->
+  <rect x="190" y="148" width="176" height="22" rx="11" fill="#1e3a8a" />
+  <rect x="190" y="196" width="136" height="16" rx="8" fill="#94a3b8" />
+  <rect x="190" y="236" width="154" height="16" rx="8" fill="#cbd5e1" />
+  <rect x="190" y="276" width="112" height="16" rx="8" fill="#cbd5e1" />
+  <!-- Check Badge -->
+  <circle cx="358" cy="352" r="78" fill="url(#accent)" stroke="#ffffff" stroke-width="16" />
+  <path
+    d="M324 352 L347 375 L394 326"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
